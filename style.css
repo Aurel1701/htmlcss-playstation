@@ -35,8 +35,7 @@ body{
 }
 .returnal{
     height: 600px;
-    background-image: url("img/returnal-listing-thumb-01-ps5.jpg");
-    background-position: center;
+    background-image: url("img/jumbo-bg.png");
     
 }
 .p-returnal{
@@ -49,7 +48,6 @@ body{
 }
 .text-returnal{
     padding-top: 350px;
-
 }
 
 
