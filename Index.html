@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="style.css">
 
   </head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <body>
       <header>
         <div class="logo d-flex justify-content-end">
@@ -30,10 +32,28 @@
                         Giochi
                       </a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Hardware
                       </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="d-flex justify-content-center align-item-center">
+                         <div>
+                         <img class="m-3" src="./img/play-menu-ico.png" alt="">
+                         <h5>Playstation 5</h5>
+                         </div>
+                         <div>
+                         <img class="m-3" src="./img/play-menu-ico.png" alt="">
+                         <h5>Playstation 4</h5>
+                         </div>
+                         <div>
+                         <img class="m-3" src="./img/play-menu-ico.png" alt="">
+                         <h5>Playstation 3</h5>
+                         </div>
+                        </div>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-center" href="#">Link</a></li>
+                      </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -79,9 +99,18 @@
           </nav>
           
       </header>
-
       <main>
-          <section class="returnal r">
+          <section class="returnal ">
+            <div class="container text-white">
+             <div class="text-returnal">
+              <h1 class="pb-3">Rompi il cerchio</h1>
+              <p class="p-returnal pb-3">Rialzati dopo ogni sconfitta e affronta una la nuova
+                 sfida con ogni rinascita in questo esplosivo thriller
+                 fantascentifico, disponibile in esclusiva su PS5
+              </p>
+              <button class="btn btn-outline-red" type="submit">Acquista ora</button>
+             </div>
+            </div>
 
           </section>
       </main>
