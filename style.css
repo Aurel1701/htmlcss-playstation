@@ -14,11 +14,7 @@ body{
     font-size: 40px;
     color: blue;
 }
-.navbar a{
-    margin-left: 15px;
-    margin-right: 15px;
 
-}
 .btn-outline-dark{
     background-color: black;
     color: white;
@@ -45,11 +41,67 @@ body{
     background-color: red;
     color: white;
 }
-.text-returnal{
-    padding-top: 350px;
+.returnal1{
+    height: 600px;
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+    
 }
-.carte{
-    height: 200px;
+.img-fluid.rounded.plays {
+    width: 60%;
+}
+.opacity{
+    opacity: 0.6;
 }
 
+.opacity:hover{
+    opacity: 1;
+    border-bottom: 1px solid #0d6efd;
+}
+.new-arrives{
+    background-color:rgba(31, 31, 31, 1);
+    color: white;
+}
+.play-plus{
+    background-color: rgba(190, 188, 187, 1);
+}
+.exp-plus{
+    background-color: rgba(217, 218, 220, 1);
+}
+.play-now{
+   background-color: rgba(22, 28, 59, 1)
+}
+.footer{
+    background-color: rgba(0, 67, 156, 1);
+    color:white;
+}
+.footer-ps{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ul{
+    list-style: none;
+}
+.pallino{
+    list-style: disc;
+}
+.margin-li{
+    margin-right: 40px;
+}
+.nopadding{
+    padding:0;
+}
+.hover-effect:hover{
+    border: 1px solid black;
+    color:white
+}
+.btn:hover{
+    border: 1px solid black;
+    color:white
+}
+.pb-2 > .rounded{
+    transition: transform 2s;
+}
 
+.pb-2 > .rounded:hover{
+    transform: translateY(-40px);
+}
